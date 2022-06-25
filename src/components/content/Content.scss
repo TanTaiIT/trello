@@ -1,0 +1,15 @@
+$appbar: rgb(13, 159, 8);
+
+.columnbar {
+    background-color: $appbar;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: auto;
+    // height: calc(100vh - (#{$appbar} + #{$topbar}));
+    height: calc(100vh - 90px);
+
+
+
+    
+}

@@ -1,0 +1,8 @@
+$topbar: rgb(12, 71, 10);
+
+.topbar {
+    background-color: $topbar;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}

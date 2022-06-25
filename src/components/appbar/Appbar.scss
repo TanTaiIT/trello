@@ -1,0 +1,9 @@
+@import './setting.scss';
+$appbar: rgb(13, 159, 8);
+
+.appbar {
+    background-color: $appbar;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
