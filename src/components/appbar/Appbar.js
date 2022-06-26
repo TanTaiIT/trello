@@ -2,7 +2,7 @@ import React from 'react'
 import './Appbar.scss'
 const Appbar = () => {
     return (
-        <div class="appbar">
+        <div className="appbar">
             App
         </div>
     )

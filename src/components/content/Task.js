@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 const Task = ({ card }) => {
     return (
-        <>
-            {card.cover && <li><img src={card.cover} alt="" /></li>}
-            <li>{card.title}</li>
-        </>
+        <div className="list-item">
+            {card.cover && <img src={card.cover} alt="" onMouseDown={(e) => e.preventDefault()} />}
+            {card.title}
+        </div>
 
 
     )

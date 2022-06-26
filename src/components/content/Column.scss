@@ -27,23 +27,43 @@
 
 
 
-    ul {
-        list-style-type: none;
-
+    .list-style {
         img {
             height: 300px;
         }
 
-        li {
-            &:not(:first-child) {
-                border: 1px solid rgb(205, 199, 199);
-                margin-top: 5px;
-                text-align: center;
-                padding: 6px 5px;
-                box-shadow: 0 0 3px rgba(114, 103, 103, 0.422);
-                background-color: #fff;
-            }
+        .list-item {
+
+            border: 1px solid rgb(205, 199, 199);
+            margin-top: 5px;
+            text-align: center;
+            padding: 6px 5px;
+            box-shadow: 0 0 3px rgba(114, 103, 103, 0.422);
+            background-color: #fff;
+
 
         }
     }
+}
+
+.card-ghost {
+    transition: transform 0.18s ease;
+    transform: rotateZ(5deg)
+}
+
+.card-ghost-drop {
+    transition: transform 0.18s ease-in-out;
+    transform: rotateZ(0deg)
+}
+
+.drop-preview {
+    background-color: rgba(150, 150, 200, 0.1);
+    border: 1px dashed #abc;
+    margin: 5px;
+}
+
+.cards-drop-preview {
+    background-color: rgba(150, 150, 200, 0.1);
+    border: 1px dashed #abc;
+    margin: 5px 45px 5px 5px;
 }

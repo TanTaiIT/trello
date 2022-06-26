@@ -2,7 +2,7 @@ import React from 'react'
 import './Topbar.scss'
 const Topbar = () => {
     return (
-        <div class="topbar">
+        <div className="topbar">
             Top
         </div>
     )

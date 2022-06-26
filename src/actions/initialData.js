@@ -15,7 +15,7 @@ export const initialData = {
                             boardId: 'board-1',
                             columnId: 'column-1',
                             title: 'Title of card 1',
-                            cover: "https://i.pinimg.com/236x/52/f2/80/52f2805d29758ed7e356ac1ed2e824bc.jpg"
+                            cover: 'https://i.pinimg.com/236x/52/f2/80/52f2805d29758ed7e356ac1ed2e824bc.jpg'
                         }, {
                             id: 'card-2',
                             boardId: 'board-1',
